@@ -1,6 +1,10 @@
 # quotesnstories_task
 Assignment for quotesNstories Internship - Problem 1
 
+# Live Urls
+to add an event: https://quotesnstories.hyderdevelops.ml/add-event
+to show events: https://quotesnstories.hyderdevelops.ml/show-events
+
 # Description
 Based on oAuth 2.0, this service allows a user to show events and create google calendar events.
 It makes use of standard googleapis SDK for invoking tokens and access codes.
