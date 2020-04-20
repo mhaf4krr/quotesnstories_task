@@ -29,8 +29,8 @@ app.set("view engine","html")
 /* Credentials for application acquired from google dev console */
 
 const googleConfig = {
-  clientId :  "720665991467-ts9n6qp9blifj2qafsbsjjmh30ah7dk6.apps.googleusercontent.com",
-  clientSecret : "wdPgMS4CSAhNFwXpCsAx-7SJ",
+  clientId :  "",
+  clientSecret : "",
   
 }
 
