@@ -1,0 +1,24 @@
+* {
+    padding:0 0;
+    margin:0 0;
+}
+
+
+body {
+    text-align: center;
+}
+
+form {
+    margin:5rem auto;
+    background-color:yellowgreen;
+    width:50%;
+    padding:5rem 5rem;
+}
+
+.form-group {
+    margin-top: 2rem;
+}
+
+.hidden {
+    visibility: hidden;
+}

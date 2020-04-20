@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Calendar</title>
+    <link rel="stylesheet" href="/events.css">
+</head>
+<body>
+    <main>
+        <div class="greeting"> 
+            <h3>
+                Hi There, following are your Google Calendar events.
+            </h3>
+        </div>
+            <main>
+
+
+                <% data.forEach((event)=>{ %>
+
+                    <section class="event">
+                       <% if(event.summary) { %>
+                        <div class="title"> <%= event.summary %></div>
+
+                        <%}%>
+
+
+                        <% if(event.description) { %>
+                            <div class="description">
+                                <p> <%= event.description %> </p>
+                            </div>
+    
+                            <%}%>
+                            
+                            <div class="dates">
+                                <%= event.start.date %>  -  <%= event.end.date %> 
+                            </div>
+                        
+                    </section>
+
+                <% }) %>
+
+                
+
+            </main>
+       
+    </main>
+</body>
+</html>

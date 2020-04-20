@@ -1,0 +1,40 @@
+*{
+    padding:0 0;
+    margin: 0 0;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(59, 56, 56);
+    color:white
+}
+
+div.greeting{
+    margin-top:2rem;
+    font-size: 2rem;
+}
+
+section.event{
+    width:20rem;
+    background-color:white ;
+    color:black;
+    padding:2rem 5rem;
+    border-radius: 10px;
+    margin:auto auto;
+    margin-top:5rem;
+
+}
+
+div.title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+section >div {
+    margin-top:1rem;
+}
+
+div.dates {
+    font-size:1.6rem;
+    font-weight: bold;
+}
